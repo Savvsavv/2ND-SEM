@@ -10,10 +10,10 @@ pane = tk.Frame(window)
 pane.pack(fill = BOTH, expand= True)
 
 #button widgets which can also expand and fill
-b1= tk.Button(pane,tex ="Click Me!")
+b1= tk.Button(pane,text ="Click Me!")
 b1.pack(fill = BOTH, expand = True)
 
-b2= tk.Button(pane,tex ="Click Me 2!")
+b2= tk.Button(pane,text ="Click Me 2!")
 b2.pack(fill = BOTH, expand = True)
 
 window.mainloop()

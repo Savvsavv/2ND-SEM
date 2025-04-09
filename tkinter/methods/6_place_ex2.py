@@ -13,6 +13,6 @@ b2.pack(fill = X, expand =True, ipady =10)
 b1= tk.Button(window, text = "PLACE BUTTON")
 
 #this is where b1 is plced inside b2 with in_option
-b1.place(in_=b2, relxx = 0.5, rely=0.5, anchor = CENTER)
+b1.place(in_=b2, relx = 0.5, rely=0.5, anchor = CENTER)
 
 window.mainloop()

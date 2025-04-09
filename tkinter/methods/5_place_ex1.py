@@ -17,4 +17,4 @@ l.place(anchor= NW)
 b2= tk.Button(window,text= "GFG")
 b2.place(relx= 0.5,rely=0.5,anchor= CENTER)
 
-window.mainlopp()
+window.mainloop()

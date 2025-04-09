@@ -26,7 +26,7 @@ c1= Checkbutton(window,text ="Preserve")
 c1.grid(row=2, column=0, sticky=W, columnspan=2)
 
 #adding image (remember image should be PNG and not JPG)
-img= tk.PhotoImage(file =r"C:\Users\savannah\Desktop\smth\tkinter")
+img= tk.PhotoImage(file =r"C:\Users\savannah\Desktop\smth\tkinter\methods")
 img1= img.subsample(2,2)
 
 #setting image with the help of label
