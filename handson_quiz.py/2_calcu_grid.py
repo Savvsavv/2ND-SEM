@@ -37,10 +37,10 @@ four= tk.Button(s_frame, text="4", width=5, height=2)
 mult=tk.Button(s_frame, text="* ", width=5,height=2)
 
 #grid
-six.grid(row=2, column=2, padx=5,pady=5)
-five.grid(row=2, column=1, padx=5,pady=5)
-four.grid(row=2, column=0, padx=5,pady=5)
-mult.grid(row=2, column=3, padx=5,pady=5)
+six.grid(row=3, column=2, padx=5,pady=5)
+five.grid(row=3, column=1, padx=5,pady=5)
+four.grid(row=3, column=0, padx=5,pady=5)
+mult.grid(row=3, column=3, padx=5,pady=5)
 
 #3rd row
 three=  tk.Button(s_frame, text="3", width=5, height=2)
@@ -48,14 +48,26 @@ two=tk.Button(s_frame, text="2", width=5, height=2)
 one=tk.Button(s_frame, text="1", width=5, height=2)
 min=tk.Button(s_frame, text="- ",width=5, height=2)
 
+#grid
+three.grid(row=4, column=2, padx=5,pady=5)
+two.grid(row=4, column=1, padx=5,pady=5)
+one.grid(row=4, column=0, padx=5,pady=5)
+min.grid(row=4, column=3, padx=5,pady=5)
+
 #4th row
 zero= tk.Button(s_frame, text="0", width=5, height=2)
 clear= tk.Button(s_frame, text="C", width=5, height=2)
 equal=tk.Button(s_frame, text="=", width=5, height=2)
 add= tk.Button(s_frame, text="+ ", width=5, height=2)
 
+#grid
+zero.grid(row=5, column=2, padx=5,pady=5)
+clear.grid(row=5, column=1, padx=5,pady=5)
+equal.grid(row=5, column=0, padx=5,pady=5)
+add.grid(row=5, column=3, padx=5,pady=5)
 
-frame.pack()
-s_frame.pack()
+
+frame.pack(expand=True)
+s_frame.pack(expand=True)
 
 window.mainloop()
