@@ -10,7 +10,7 @@ frame=tk.Frame()
 s_frame=tk.Frame()
 
 #Entries
-entry=tk.Entry(frame, width=35, justify="right")
+entry=tk.Entry(frame, width=30, justify="right")
 ans=tk.Entry(frame,width=30, justify="right")
 
 #grid
