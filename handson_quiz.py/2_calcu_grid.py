@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import *
 
 window=tk.Tk()
-window.geometry("300x250")
+window.geometry("300x300")
 window.title("Calculator")
 
 #frame
@@ -10,8 +10,8 @@ frame=tk.Frame()
 s_frame=tk.Frame()
 
 #Entries
-entry=tk.Entry(frame, width=25, justify="right")
-ans=tk.Entry(frame,width=25, justify="right")
+entry=tk.Entry(frame, width=35, justify="right")
+ans=tk.Entry(frame,width=30, justify="right")
 
 #grid
 entry.grid(row=0,column=0,pady=3,padx=3,sticky="news")
