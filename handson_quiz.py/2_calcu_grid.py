@@ -10,8 +10,8 @@ frame=tk.Frame()
 s_frame=tk.Frame()
 
 #Entries
-entry=tk.Entry(frame, width=10, justify="right")
-ans=tk.Entry(frame,width=13, justify="right")
+entry=tk.Entry(frame, width=25, justify="right")
+ans=tk.Entry(frame,width=25, justify="right")
 
 #grid
 entry.grid(row=0,column=0,pady=3,padx=3,sticky="news")
@@ -61,9 +61,9 @@ equal=tk.Button(s_frame, text="=", width=5, height=2)
 add= tk.Button(s_frame, text="+ ", width=5, height=2)
 
 #grid
-zero.grid(row=5, column=2, padx=5,pady=5)
-clear.grid(row=5, column=1, padx=5,pady=5)
-equal.grid(row=5, column=0, padx=5,pady=5)
+zero.grid(row=5, column=1, padx=5,pady=5)
+clear.grid(row=5, column=0, padx=5,pady=5)
+equal.grid(row=5, column=2, padx=5,pady=5)
 add.grid(row=5, column=3, padx=5,pady=5)
 
 
